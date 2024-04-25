@@ -1,0 +1,31 @@
+## Docker commands used to build the application 
+docker build -t techtrends .
+
+## Docker commands used to run the application
+docker run -d -p 7111:3111 techtrends
+
+## Docker commands used to get the application logs
+docker logs 1da68cae2d9b
+
+## Logs from the container running the TechTrends application
+INFO:werkzeug: * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:38:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:38:08] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:38:09] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:36] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:app:Article KubeCon + CloudNativeCon 2021 retrieved!
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:39] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:39] "GET /static/css/main.css HTTP/1.1" 304 -
+ERROR:app:Article with id 10 does not exist!
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:43] "GET /10 HTTP/1.1" 404 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:43] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:app:The About Us page is rendered
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:47] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:43:47] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:20] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:20] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:app:Article Test title created!
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:33] "POST /create HTTP/1.1" 302 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:34] "GET /static/css/main.css HTTP/1.1" 304 -

@@ -1,0 +1,20 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://10.35.0.197:3111
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:app:Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:03:28] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:03:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+ERROR:app:Article with id 10 does not exist!
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:20] "[33mGET /10 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is rendered
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:31] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:42] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article Title 2 created!
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:57] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:14:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
