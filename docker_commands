@@ -29,3 +29,4 @@ INFO:app:Article Test title created!
 INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:33] "POST /create HTTP/1.1" 302 -
 INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:34] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:172.17.0.1 - - [25/Apr/2024 07:44:34] "GET /static/css/main.css HTTP/1.1" 304 -
+
