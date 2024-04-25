@@ -1,0 +1,2 @@
+# techtrends
+Udacity TechTrends Project
