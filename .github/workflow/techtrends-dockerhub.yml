@@ -36,4 +36,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: trungvq7/techtrends:latest
+          tags: linkinf88k/techtrends:latest
